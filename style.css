@@ -1,0 +1,151 @@
+/* *{
+    border: 1px solid red;
+} */
+
+p {
+    margin-bottom: 0px;
+}
+
+.anton{font-family: 'Anton', sans-serif;}
+.quicksand{font-family: 'Quicksand', sans-serif;}
+
+.logo-font{
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+}
+
+.big-logo{
+    font-size: 40pt;
+}
+
+/* #wrapper{
+    background-color: rgb(206,191,184);
+} */
+.dark-blue-bg{
+    background-color: rgb(25, 50, 67);
+}
+
+.green-bg{
+    background-color: rgb(84,106,100);
+}
+
+.blue-bg{
+    background-color: rgb(135,141,154);
+}
+.red-bg{
+    background-color: rgb(171,105,116);
+}
+
+
+.blue-text{
+    color: rgb(135,141,154);
+}
+.dark-blue-text{
+    color: rgb(25, 50, 67);
+}
+
+#member-login{
+    margin-top: 1%;
+    background-color: rgb(135,141,154);
+    color: black;
+    width: 15%;
+    text-align: center;
+
+}
+
+/* body area */
+#main{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 20px;
+    margin-top: 9%;
+}
+
+#header-text-area{
+    position: absolute;
+    text-align: left;
+    width: 85%;
+    margin-left: 15%;
+    margin-top: 15%;
+}
+
+#header-text{
+    margin-left: 10%;
+}
+
+#main-img{
+    position: relative;
+}
+
+.image{
+    max-width: 30%;
+    float: right;
+    margin-right: 20%;
+}
+
+#two-column{
+    padding-top: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#c1{
+    width: 30%;
+    margin-left: 7%;
+    margin-right:3%;
+}
+
+#c2{
+    width: 30%;
+    margin-left: 3%;
+    margin-right: 7%;
+}
+
+/* member page */
+#member{
+    margin-top: 7%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-top: 5%;
+}
+
+#login{
+    width: 30%;
+}
+
+.log-submit{
+    background-color: rgb(84,106,100);
+    color:  white;
+    border:  rgb(206,191,184);
+    padding: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-left: 25%;
+    transition: all .2s ease-in-out;
+}
+
+.log-submit:hover{
+    background-color: rgb(122, 158, 148);
+    transform: scale(1.1);
+}
+
+#membership{
+    width: 30%;
+    padding: 2%;
+    
+}
+
+.bar{
+    width: 100%;
+}
+
+#faq{
+    margin-top: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 5%;
+    width: 80%;
+}
